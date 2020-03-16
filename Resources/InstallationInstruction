@@ -1,0 +1,18 @@
+1) virtualenv -p python3 djviews && cd djviews
+
+2) source bin/activate
+
+3) pip install django==1.10.2
+
+4) django-admin.py startproject djviews or django-admin startproject djviews
+
+5) // Create View in src folder
+    python manage.py startapp blog
+
+
+6) Create the view  views.py
+
+7) include indivisual urls to particular view in urls.py
+
+8) start the seerver
+        pyhton manage.py runserver
