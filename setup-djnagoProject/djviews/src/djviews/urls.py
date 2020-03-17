@@ -18,11 +18,11 @@ from django.contrib import admin
 
 from .views import home
 
-from blog.views import post_model_list_view
+#from blog.views import post_model_list_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #url(r'^$', home, name='home')
     url(r'^abc/', home, name='home'),
-    url(r'^blog/', include('blog.urls')), #app controls all urls
+    url(r'^blog/', include('blog.urls', namespace='blog')), #app controls all urls
 ]
