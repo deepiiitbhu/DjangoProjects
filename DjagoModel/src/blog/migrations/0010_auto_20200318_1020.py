@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 from django.db import migrations, models
-import django.utils.timezone
+from django.utils import timezone
 
 
 class Migration(migrations.Migration):
@@ -16,6 +16,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='postmodel',
             name='publish_datw',
-            field=models.DateField(default=django.utils.timezone.now),
+            field=models.DateField(default=timezone.now),
         ),
     ]
