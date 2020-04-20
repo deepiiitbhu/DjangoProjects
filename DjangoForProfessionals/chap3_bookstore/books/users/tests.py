@@ -6,18 +6,19 @@ from django.test import TestCase
 
 class CustomerTests(TestCase):
     def test_create_user(self):
+        User = get_user_model()
         user =  User.objects.create_user(
             username = 'will',
-            email = 'will.gmail.com',
-            password='testpass123'
+            email = 'deep.tiwari1@gmail.com',
+            password='deep'
         )
 
         self.assertEqual(user.username, 'will')
-        self.assertEqual(user.email, 'will@gmail.com')
+        self.assertEqual(user.email, 'deep.tiwari1@gmail.com')
         self.assertTrue(user.is_active)
         self.assertTrue(user.is_staff)
         self.assertFalse(user.is_superuser)
-        )
+        
 
 
 
