@@ -70,7 +70,7 @@ PyPDF2==1.26.0
 pyperclip==1.6.5
 python-dateutil==2.8.0
 pytz==2019.2
-PyYAML==5.1.2
+PyYAML==5.4
 reportlab==3.5.32
 requests==2.22.0
 rsa==4.0
