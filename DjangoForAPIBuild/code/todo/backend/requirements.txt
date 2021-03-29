@@ -62,7 +62,7 @@ pyasn1==0.4.7
 pycparser==2.19
 pycrypto==2.6.1
 pydot==1.4.1
-Pygments==2.4.2
+Pygments==2.7.4
 pylint==2.3.1
 pyOpenSSL==17.5.0
 pyparsing==2.2.2
