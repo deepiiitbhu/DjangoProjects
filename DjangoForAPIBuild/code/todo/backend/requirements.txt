@@ -73,7 +73,7 @@ pytz==2019.2
 PyYAML==5.1.2
 reportlab==3.5.32
 requests==2.22.0
-rsa==4.0
+rsa==4.7
 ruamel.yaml==0.15.100
 shellescape==3.4.1
 six==1.12.0
